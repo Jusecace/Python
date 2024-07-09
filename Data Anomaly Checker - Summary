@@ -1,4 +1,34 @@
-The "Data Anomaly Checker" is a desktop application designed to identify and report invalid data entries within a dataset. 
-The app allows users to upload a CSV file and automatically performs a series of checks on specified columns, such as identifying non-text values, detecting entries exceeding specified lengths, and locating empty or null values. 
-The results are displayed in a user-friendly interface with color-coded text boxes indicating the presence of anomalies. 
-The app emphasizes the importance of non-empty cells by displaying a warning message and is designed with a simple, intuitive user experience in mind.
+Summary of Functions for the Pembina Data Anomaly Checker
+The Data Anomaly Checker is a desktop application designed to streamline the process of identifying and reporting data anomalies within a CSV file. Below is an organized explanation of the core functions it performs:
+
+File Upload and Loading
+
+Function: load_file
+Description: This function allows users to upload a CSV file using a file dialog. It reads the file into a pandas DataFrame and updates the interface to display the filename and loaded data.
+Data Anomaly Detection
+
+Function: detect_invalid_in_column_x
+Description: This is a generalized function template for detecting anomalies in specific columns. Each column has a customized version of this function tailored to its requirements (e.g., detect_invalid_in_column_0, detect_invalid_in_column_1, etc.). The anomalies detected include:
+Non-text Values: Identifies entries that are not strings.
+Exceed Length: Finds entries that exceed the specified character length.
+Empty or Null Values: Detects empty or null entries, with specific handling for columns where empty values are allowed.
+Updating the User Interface
+
+Function: update_text_boxes
+Description: Updates the text boxes in the UI with the indices of rows containing anomalies. Each type of anomaly has its dedicated text box, and a header value is displayed as well.
+Color Coding and Warnings
+
+Function: set_text_box_colors
+Description: Sets the background color of text boxes to light red to highlight the presence of anomalies.
+Warning Messages: A warning message is displayed indicating the importance of non-empty cells in specific columns.
+User Interface Design
+
+Tkinter Widgets: The app uses various Tkinter widgets to create the user interface, including labels, text boxes, buttons, and frames to organize the layout and functionality.
+Customized Message: Displays a custom message created by the developer (e.g., "created by: Sebastian Cardenas") and a warning about empty cells.
+Usage Flow
+Launch the Application: The user starts the desktop application.
+Upload CSV File: The user clicks on the "Load" button to upload a CSV file.
+Data Processing: The uploaded file is processed, and each column is checked for anomalies using the specified detection functions.
+Display Results: The results are displayed in text boxes with indices of rows containing anomalies. Text boxes with anomalies are highlighted in light red.
+Warnings and Messages: A warning message about empty cells is displayed, and a custom message from the developer is shown at the top of the interface.
+This organized functionality ensures that users can efficiently identify and address data anomalies in their datasets.
