@@ -15,7 +15,7 @@ Advanced Analysis: Calculating Interquartile Range (IQR) and implementing condit
 Example code snippets and detailed explanations are provided to guide you through the analysis process.
 
 2. Data Anomaly Checker
-This project focuses on the "PData Anomaly Checker," a desktop application designed to identify and report invalid data entries within a dataset. Key objectives include:
+This project focuses on the "Data Anomaly Checker," a desktop application designed to identify and report invalid data entries within a dataset. Key objectives include:
 
 File Upload and Loading: Allowing users to upload a CSV file using a file dialog. The file is read into a pandas DataFrame, and the filename and loaded data are displayed.
 Data Anomaly Detection: Customized functions detect anomalies in specific columns, including non-text values, entries exceeding specified lengths, and empty or null values.
