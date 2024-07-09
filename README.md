@@ -1,2 +1,41 @@
 # Python
 
+Most Streamed Spotify Songs 2024 - Data Analysis Project
+Project Overview
+This project aims to analyze the "Most Streamed Spotify Songs 2024" dataset using Python. The primary goal is to gain insights into the data, uncover trends, and visualize key aspects of the most streamed songs on Spotify in 2024. The analysis will cover various aspects such as popularity metrics, release dates, and playlist counts across different streaming platforms.
+
+Dataset
+The dataset contains information about the most streamed songs on Spotify in 2024. Key columns include:
+
+Track Name: The name of the song.
+Artist: The performing artist(s).
+Release Date: The date when the song was released.
+ISRC: The International Standard Recording Code for each track.
+Streams: The number of streams each song has received.
+Explicit: Indicates whether the track contains explicit content (1 for explicit, 0 for non-explicit).
+Playlist Counts: The number of times each song appears in playlists across different platforms (e.g., Apple Music, Deezer, Spotify).
+Popularity Metrics: Various metrics indicating the popularity of the tracks.
+Key Objectives
+Data Cleaning and Preparation:
+
+Handle missing values and incorrect data types.
+Convert relevant columns to appropriate data types (e.g., Release Date to datetime).
+Remove or replace invalid or irrelevant entries.
+Exploratory Data Analysis (EDA):
+
+Generate summary statistics for numerical columns.
+Visualize the distribution of streams and playlist counts.
+Analyze the relationship between different metrics (e.g., streams and playlist counts).
+Trend Analysis:
+
+Identify trends in the release dates of popular songs.
+Analyze the correlation between explicit content and popularity.
+Visualization:
+
+Create scatter plots, histograms, and bar charts to visualize key metrics.
+Add trend lines to scatter plots to identify relationships between variables.
+Use color maps (cmap) to enhance visualizations.
+Advanced Analysis:
+
+Calculate and visualize the Interquartile Range (IQR) for various metrics.
+Implement conditions to filter and count specific data points (e.g., count of explicit tracks).
