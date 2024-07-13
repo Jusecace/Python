@@ -24,5 +24,31 @@ Color Coding and Warnings: Text boxes with anomalies are highlighted in light re
 User Interface Design: The app uses various Tkinter widgets to create a user-friendly interface, including labels, text boxes, buttons, and frames to organize the layout and functionality. Custom messages from the developer are also displayed.
 The application ensures efficient identification and addressing of data anomalies in user datasets.
 
+3. Travel Data Analysis Project
+This project focuses on analyzing travel data over multiple years, with an emphasis on quarterly breakdowns. Key objectives and features of the project include:
+
+Data Preparation:
+Date Handling:
+Converting travel dates to quarterly periods using pandas.
+Filtering data by specific quarters.
+Data Aggregation:
+Quarterly Counts:
+
+Calculating the number of entries (trips) per quarter from 2020 to 2023.
+Storing these counts in a dictionary for easy access and plotting.
+Quarterly Average Costs:
+
+Computing the average cost of travel for each quarter.
+Normalizing costs to enhance interpretability (e.g., dividing by 1000).
+Visualization:
+Bar and Line Plots:
+Creating bar plots to visualize the number of entries per quarter.
+Plotting average travel costs per quarter using line plots for trend analysis.
+Customizing plot titles, labels, and layouts for clarity.
+Heat Map Generation:
+Heat Map:
+Preparing a pivot table to organize data by quarter and metric (e.g., counts or costs).
+Utilizing seaborn to generate a heat map for a visual representation of data distribution and trends.
+
 Future Projects
 This repository is a work in progress, and new projects will be added regularly.
