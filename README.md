@@ -18,6 +18,7 @@ Advanced Analysis: Calculating Interquartile Range (IQR) and implementing condit
 Example code snippets and detailed explanations are provided to guide you through the analysis process.
 
 2. Data Anomaly Checker
+
 This project focuses on the "Data Anomaly Checker," a desktop application designed to identify and report invalid data entries within a dataset. Key objectives include:
 
 File Upload and Loading: Allowing users to upload a CSV file using a file dialog. The file is read into a pandas DataFrame, and the filename and loaded data are displayed.
@@ -28,6 +29,7 @@ User Interface Design: The app uses various Tkinter widgets to create a user-fri
 The application ensures efficient identification and addressing of data anomalies in user datasets.
 
 3. Travel Data Analysis Project
+
 This project focuses on analyzing travel data over multiple years, with an emphasis on quarterly breakdowns. Key objectives and features of the project include:
 
 Data Preparation:
